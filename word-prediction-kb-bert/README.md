@@ -47,15 +47,15 @@ export:
 
 ### Configuration
 
-You can configure this plugin by the number of neighbours to generate.
+You can configure this plugin by the number of predictions to generate.
 
-#### Number of Neighbours
+#### Number of Predictions
 
-The number of neighbours defaults to `5` but can be configured in `config.yaml`:
+The number of predictions defaults to `5` but can be configured in `config.yaml`:
 
 ```yaml
 sbx_word_prediction_kb_bert:
-    num_neighbours: 5
+    num_predictions: 5
 ```
 
 #### Number of Decimals
