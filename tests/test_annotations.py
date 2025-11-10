@@ -1,10 +1,11 @@
 import pytest
+from sparv.api import SparvErrorMessage  # type: ignore [import-untyped]
+from sparv_testing import MemoryOutput, MockAnnotation
+
 from sbx_word_prediction_kb_bert.annotations import (
     load_predictor,
     predict_words__kb_bert,
 )
-from sparv.api import SparvErrorMessage  # type: ignore [import-untyped]
-from sparv_pipeline_testing import MemoryOutput, MockAnnotation
 
 
 def test_load_predictor_not_int_raises() -> None:

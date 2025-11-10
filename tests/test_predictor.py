@@ -2,6 +2,7 @@ from itertools import islice
 from typing import Dict, Tuple
 
 import pytest
+
 from sbx_word_prediction_kb_bert.predictor import TopKPredictor
 
 TEXTS: Dict[str, str] = {
