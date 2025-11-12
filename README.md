@@ -83,6 +83,16 @@ sbx_word_prediction_kb_bert:
 | Model     | [`KBLab/bert-base-swedish-cased`](https://huggingface.co/KBLab/bert-base-swedish-cased) | c710fb8dff81abb11d704cd46a8a1e010b2b022c |
 | Tokenizer | same as Model                                                                           | same as Model                            |
 
+## Supported Python versions
+
+This library thrives to support a Python version to End-Of-Life, and will at
+least bump the minor version when support for a Python version is dropped.
+
+The following versions of this library supports these Python versions:
+
+- v0.7: Python 3.11
+- v0.6: Python 3.8
+
 ## Changelog
 
 This project keeps a [changelog](./CHANGELOG.md).
